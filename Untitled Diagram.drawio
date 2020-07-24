@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-07-24T11:18:19.725Z" agent="5.0 (Windows)" etag="AgWqMRCFfY9_GmWTyAE_" version="13.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-07-24T11:29:26.436Z" agent="5.0 (Windows)" etag="8Qmm_xSx70emEEHKUq-x" version="13.5.1" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="868" dy="439" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -42,38 +42,46 @@
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-10" value="&lt;div&gt;Check application already installed&lt;/div&gt;&lt;div&gt;WMI-1&lt;br&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="170" y="290" width="100" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="WIyWlLk6GJQsqaUBKTNV-11" value="&lt;div&gt;Get Application informatio from SCCM server.&lt;/div&gt;&lt;div&gt;Call installApplication method of Application catelog end point&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="20" y="460" width="180" height="70" as="geometry" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-11" value="&lt;div&gt;Get Application informatio(installInfo) from SCCM server.&lt;/div&gt;&lt;div&gt;Call installApplication method of Application catelog end point&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="19" y="460" width="180" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="pWM3bwc5xP9ZBW1kvqXN-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIyWlLk6GJQsqaUBKTNV-12" target="WIyWlLk6GJQsqaUBKTNV-7">
+        <mxCell id="pWM3bwc5xP9ZBW1kvqXN-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIyWlLk6GJQsqaUBKTNV-12" target="WIyWlLk6GJQsqaUBKTNV-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-12" value="remove application from queue" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="580" y="320" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="pWM3bwc5xP9ZBW1kvqXN-0" value="Add Application to installation Queue" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="pWM3bwc5xP9ZBW1kvqXN-0" value="Add Application to installation Queue" style="rounded=1;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="10" y="230" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="pWM3bwc5xP9ZBW1kvqXN-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="pWM3bwc5xP9ZBW1kvqXN-1" target="WIyWlLk6GJQsqaUBKTNV-12">
+        <mxCell id="pWM3bwc5xP9ZBW1kvqXN-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="pWM3bwc5xP9ZBW1kvqXN-1" target="WIyWlLk6GJQsqaUBKTNV-12" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="pWM3bwc5xP9ZBW1kvqXN-1" value="if null " style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="pWM3bwc5xP9ZBW1kvqXN-1" value="if null " style="rhombus;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="250" y="430" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="pWM3bwc5xP9ZBW1kvqXN-4" value="can user install package" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="pWM3bwc5xP9ZBW1kvqXN-4" value="can user install package" style="rhombus;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="240" y="520" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="pWM3bwc5xP9ZBW1kvqXN-5" value="&lt;div&gt;signature verification&lt;/div&gt;&lt;div&gt;1. PolicyModelName&lt;/div&gt;&lt;div&gt;2. ApplicationID&lt;/div&gt;&lt;div&gt;Application catalog end point required &lt;br&gt;&lt;/div&gt;&lt;div&gt;WMI-3&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="pWM3bwc5xP9ZBW1kvqXN-5" value="&lt;div&gt;signature verification&lt;/div&gt;&lt;div&gt;1. PolicyModelName&lt;/div&gt;&lt;div&gt;2. ApplicationID&lt;/div&gt;&lt;div&gt;Application catalog end point required &lt;br&gt;&lt;/div&gt;&lt;div&gt;WMI-3&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="20" y="620" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="pWM3bwc5xP9ZBW1kvqXN-6" value="successfull" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="pWM3bwc5xP9ZBW1kvqXN-6" value="successfull" style="rhombus;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="230" y="630" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="pWM3bwc5xP9ZBW1kvqXN-7" value="&lt;div&gt;CCM_RequestAppPolicyActivation &lt;br&gt;&lt;/div&gt;&lt;div&gt;WMI-4&lt;br&gt;&lt;/div&gt;&lt;div&gt;WaitForPolicyApplication&lt;/div&gt;&lt;div&gt;WMI-5&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="pWM3bwc5xP9ZBW1kvqXN-7" value="&lt;div&gt;CCM_RequestAppPolicyActivation &lt;br&gt;&lt;/div&gt;&lt;div&gt;WMI-4&lt;br&gt;&lt;/div&gt;&lt;div&gt;WaitForPolicyApplication&lt;/div&gt;&lt;div&gt;WMI-5&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="220" y="750" width="360" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="pWM3bwc5xP9ZBW1kvqXN-8" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="260" y="850" width="120" height="60" as="geometry" />
+        <mxCell id="pWM3bwc5xP9ZBW1kvqXN-8" value="&lt;div&gt;WaitForApplicationPolicyEvaluation&lt;/div&gt;&lt;div&gt;WMI-6&lt;br&gt;&lt;/div&gt;&lt;div&gt;CheckPolicyEvaluationState(installInfo);&lt;/div&gt;&lt;div&gt;WMI-7&lt;/div&gt;&lt;div&gt; &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; InstallApplication(installInfo);&lt;/div&gt;&lt;div&gt;WMI8&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="220" y="840" width="330" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="m49f3VbfArDvr9oFj0-C-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.85;entryY=1.05;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="m49f3VbfArDvr9oFj0-C-0" target="WIyWlLk6GJQsqaUBKTNV-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="710" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m49f3VbfArDvr9oFj0-C-0" value="Application instllation end event(successfull/unsuccessfull)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="310" y="960" width="230" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
